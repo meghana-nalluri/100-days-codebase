@@ -9,22 +9,22 @@ file.seek(0)
 construct3=file.readlines()
 print(construct1,construct2,construct3,sep='/n/n')
 file.close
-'''
 
-               *********************WRITE********************
+
+               #*********************WRITE********************
 
 file=open("samples.txt","w")
 file.write("Hello People...")
 file.close()
 
-            *****************APPEND*****************************
+            #*****************APPEND*****************************
 
             
 file=open("samples.txt","a")
 file.write("/nHello People...")
 file.close()
 
-             *****************READ + WRITE +APPEND***********************
+             #*****************READ + WRITE +APPEND***********************
 
 
 file=open("samples.txt","r+")
@@ -42,7 +42,7 @@ print(file)
 file.close()
 
 
-        *****************AS FILE**********************
+        #*****************AS FILE**********************
 with open ("sample.txt","r") as file:
     file.wwrite("/nFile "
 )
@@ -80,7 +80,7 @@ with open("sample.csv","a",newline="\n") as file:
     data.writerow([2,"sai"])
 
 
-'''
+
 import csv
 with open("products.csv","w",newline="") as file:
     data.writerow(["product_id","product_name","product_price"])
