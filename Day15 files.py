@@ -14,7 +14,7 @@ with open("sample.csv","a",newline="\n") as file:
     data.writerow([2,"sai"])
 
 
-'''
+
 import csv
 with open("products.csv","w",newline="") as file:
     data.writerow(["product_id","product_name","product_price"])
@@ -43,7 +43,7 @@ with open("sample.csv","a",newline="\n") as file:
     data.writerow([2,"sai"])
 
 
-'''
+
 import csv
 with open("products.csv","w",newline="") as file:
     data.writerow(["product_id","product_name","product_price"])
